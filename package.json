@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.10",
+    "mongoose": "^5.13.2",
+    "nodemon": "^2.0.12"
+  },
   "devDependencies": {},
   "scripts": {
     "start": "nodemon index.js"
