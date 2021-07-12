@@ -18,5 +18,5 @@ const userRouter = require("./routes/users");
 app.use("/users", userRouter);
 
 app.listen(9000, () => {
-  console.log("server started..");
+  console.log("server started and working..");
 });
